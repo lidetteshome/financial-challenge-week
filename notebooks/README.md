@@ -47,33 +47,33 @@ See separate section.
 
 ## 📁 Folder Structure
 
-.
-├── LICENSE
-├── README.md
-├── data
-│   ├── AAPL_historical_data.csv
-│   ├── AMZN_historical_data.csv
-│   ├── GOOG_historical_data.csv
-│   ├── META_historical_data.csv
-│   ├── MSFT_historical_data.csv
-│   ├── NVDA_historical_data.csv
-│   ├── TSLA_historical_data.csv
-│   └── raw_analyst_ratings.csv
-├── notebooks
-│   ├── README.md
-│   ├── __init__.py
-│   └── financial_eda.ipynb
-├── requirements.txt
-├── scripts
-│   ├── README.py
-│   ├── __init__.py
-│   ├── financial_eda.py
-│   ├── quantitative_analysis.py
-│   └── sentiment_analysis.py
-├── src
-│   └── __init__.py
-└── tests
-    └── __init__.py
+. <br>
+├── LICENSE <br>
+├── README.md <br>
+├── data <br>
+│   ├── AAPL_historical_data.csv <br>
+│   ├── AMZN_historical_data.csv <br>
+│   ├── GOOG_historical_data.csv <br>
+│   ├── META_historical_data.csv <br>
+│   ├── MSFT_historical_data.csv <br>
+│   ├── NVDA_historical_data.csv <br>
+│   ├── TSLA_historical_data.csv <br>
+│   └── raw_analyst_ratings.csv <br>
+├── notebooks <br>
+│   ├── README.md <br>
+│   ├── __init__.py <br>
+│   └── financial_eda.ipynb <br>
+├── requirements.txt <br>
+├── scripts <br>
+│   ├── README.py <br>
+│   ├── __init__.py <br>
+│   ├── financial_eda.py <br>
+│   ├── quantitative_analysis.py <br>
+│   └── sentiment_analysis.py <br>
+├── src <br>
+│   └── __init__.py <br>
+└── tests <br>
+    └── __init__.py <br>
 
 ---
 
