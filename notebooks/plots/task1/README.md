@@ -1,38 +1,38 @@
-# 📈 Financial News Sentiment & Stock Movement Analysis
+# Financial News Sentiment & Stock Movement Analysis
 
 Welcome to the Week-1 Challenge of 10 Academy AIM Program: Using NLP & Market Data to uncover alpha.
 
 ---
 
-## 🚀 Objective
+## Objective
 
 Explore correlations between financial news sentiment and daily stock returns across major tickers (AAPL, AMZN, GOOG, etc.) using:
 
-- 📊 Technical indicators  
-- 🤖 Transformer-based sentiment analysis  
-- 📉 Return calculations and statistical correlation
+- Technical indicators  
+- Transformer-based sentiment analysis  
+- Return calculations and statistical correlation
 
 ---
 
-## 🧠 Tasks Completed
+## Tasks Completed
 
 ### Task 1: EDA on News Dataset
 
-#### 🔍 Descriptive Statistics
+#### Descriptive Statistics
 - Headline length calculated for all articles  
 - Histogram plotted to visualize length distribution  
 
-#### 📰 Publisher Analysis
+#### Publisher Analysis
 - Top 15 publishers by article count identified and plotted  
 - Sample headlines from top publishers reviewed  
 - Checked for email-style publisher entries, extracted domains  
 
-#### ⏰ Time Series Analysis
+#### Time Series Analysis
 - Daily publishing frequency plotted to identify spikes  
 - Zoomed in on COVID-19 crash period (Feb–Apr 2020)  
 - Hour-of-day analysis showed most articles are published between 8am–10am UTC  
 
-#### 🧠 Text Analysis (Topic Modeling)
+#### Text Analysis (Topic Modeling)
 - `CountVectorizer` used to extract common unigrams and bigrams  
 - Frequent terms like `"price target"`, `"fda approval"` identified  
 - Bar plot of top 20 keyword phrases visualized  
@@ -45,7 +45,7 @@ See separate section.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 . <br>
 ├── LICENSE <br>
@@ -77,10 +77,6 @@ See separate section.
 
 ---
 
-## 🧪 Run Unit Tests
-
-```bash
-pytest tests/
 
 ✍️ Author
 
