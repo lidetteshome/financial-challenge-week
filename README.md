@@ -95,18 +95,92 @@ plots/task2/impact_analysis/AMZN_rsi_signals.png
 ## Folder Structure
 
 ```
-ai-financial-sentiment/
-├── data/                         # Input CSVs
-├── outputs/                      # Metrics exports
-│   └── yfinance_metrics/
-├── plots/                        # Visual output
-│   └── task1/
-│   └── task2/
-├── scripts/                      # Python analysis scripts
-├── report/                       # Project reports
-│   └── Week1_Task1_Task2_Report.docx
+.
+├── LICENSE
 ├── README.md
-└── requirements.txt
+├── data
+│   ├── AAPL_historical_data.csv
+│   ├── AMZN_historical_data.csv
+│   ├── GOOG_historical_data.csv
+│   ├── META_historical_data.csv
+│   ├── MSFT_historical_data.csv
+│   ├── NVDA_historical_data.csv
+│   ├── TSLA_historical_data.csv
+│   └── raw_analyst_ratings.csv
+├── notebooks
+│   ├── __init__.py
+│   ├── financial_eda.ipynb
+│   ├── outputs
+│   │   └── yfinance_metrics
+│   │       ├── AAPL_metrics.csv
+│   │       ├── AMZN_metrics.csv
+│   │       ├── GOOG_metrics.csv
+│   │       ├── META_metrics.csv
+│   │       ├── MSFT_metrics.csv
+│   │       ├── NVDA_metrics.csv
+│   │       ├── TSLA_metrics.csv
+│   │       └── summary_metrics.csv
+│   ├── plots
+│   │   ├── task1
+│   │   │   ├── README.md
+│   │   │   ├── covid_crash_volume.png
+│   │   │   ├── daily_news_volume.png
+│   │   │   ├── headline_length_distribution.png
+│   │   │   ├── hourly_distribution.png
+│   │   │   ├── top_publishers.png
+│   │   │   └── topic_keywords.png
+│   │   └── task2
+│   │       ├── AAPL_indicators.png
+│   │       ├── AMZN_indicators.png
+│   │       ├── GOOG_indicators.png
+│   │       ├── META_indicators.png
+│   │       ├── MSFT_indicators.png
+│   │       ├── NVDA_indicators.png
+│   │       ├── README.md
+│   │       ├── TSLA_indicators.png
+│   │       ├── impact_analysis
+│   │       │   ├── AAPL_macd_crossovers.png
+│   │       │   ├── AAPL_price_sma_zone.png
+│   │       │   ├── AAPL_rsi_signals.png
+│   │       │   ├── AMZN_macd_crossovers.png
+│   │       │   ├── AMZN_price_sma_zone.png
+│   │       │   ├── AMZN_rsi_signals.png
+│   │       │   ├── GOOG_macd_crossovers.png
+│   │       │   ├── GOOG_price_sma_zone.png
+│   │       │   ├── GOOG_rsi_signals.png
+│   │       │   ├── META_macd_crossovers.png
+│   │       │   ├── META_price_sma_zone.png
+│   │       │   ├── META_rsi_signals.png
+│   │       │   ├── MSFT_macd_crossovers.png
+│   │       │   ├── MSFT_price_sma_zone.png
+│   │       │   ├── MSFT_rsi_signals.png
+│   │       │   ├── NVDA_macd_crossovers.png
+│   │       │   ├── NVDA_price_sma_zone.png
+│   │       │   ├── NVDA_rsi_signals.png
+│   │       │   ├── TSLA_macd_crossovers.png
+│   │       │   ├── TSLA_price_sma_zone.png
+│   │       │   └── TSLA_rsi_signals.png
+│   │       └── indicators
+│   │           ├── AAPL_indicators.png
+│   │           ├── AMZN_indicators.png
+│   │           ├── GOOG_indicators.png
+│   │           ├── META_indicators.png
+│   │           ├── MSFT_indicators.png
+│   │           ├── NVDA_indicators.png
+│   │           └── TSLA_indicators.png
+│   └── technical_analysis.ipynb
+├── requirements.txt
+├── scripts
+│   ├── README.py
+│   ├── __init__.py
+│   ├── financial_eda.py
+│   ├── quantitative_analysis.py
+│   └── sentiment_analysis.py
+├── src
+│   └── __init__.py
+└── tests
+    └── __init__.py
+
 ```
 
 ---
