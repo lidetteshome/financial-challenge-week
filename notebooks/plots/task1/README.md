@@ -1,21 +1,3 @@
-# Financial News Sentiment & Stock Movement Analysis
-
-Welcome to the Week-1 Challenge of 10 Academy AIM Program: Using NLP & Market Data to uncover alpha.
-
----
-
-## Objective
-
-Explore correlations between financial news sentiment and daily stock returns across major tickers (AAPL, AMZN, GOOG, etc.) using:
-
-- Technical indicators  
-- Transformer-based sentiment analysis  
-- Return calculations and statistical correlation
-
----
-
-## Tasks Completed
-
 ### Task 1: EDA on News Dataset
 
 #### Descriptive Statistics
@@ -36,12 +18,6 @@ Explore correlations between financial news sentiment and daily stock returns ac
 - `CountVectorizer` used to extract common unigrams and bigrams  
 - Frequent terms like `"price target"`, `"fda approval"` identified  
 - Bar plot of top 20 keyword phrases visualized  
-
----
-
-## Task 2: Technical Stock Analysis
-
-See separate section.
 
 ---
 
@@ -78,6 +54,6 @@ See separate section.
 ---
 
 
-✍️ Author
+## Author
 
 Lidet Teshome, 10 Academy AIM Cohort

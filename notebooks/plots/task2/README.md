@@ -38,3 +38,8 @@ All indicators were added as new columns in the price DataFrame per ticker.
 
 Each ticker has 6 charts saved under:
 
+---
+
+## Author
+
+Lidet Teshome, 10 Academy AIM Cohort
